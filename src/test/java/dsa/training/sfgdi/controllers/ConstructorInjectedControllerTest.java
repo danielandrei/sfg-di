@@ -1,6 +1,6 @@
 package dsa.training.sfgdi.controllers;
 
-import dsa.training.sfgdi.services.GreetingServiceImpl;
+import dsa.training.sfgdi.services.ConstructorGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -11,7 +11,7 @@ class ConstructorInjectedControllerTest {
   @BeforeEach
   void setUp() {
 
-    controller = new ConstructorInjectedController(new GreetingServiceImpl());
+    controller = new ConstructorInjectedController(new ConstructorGreetingService());
 
   }
 
