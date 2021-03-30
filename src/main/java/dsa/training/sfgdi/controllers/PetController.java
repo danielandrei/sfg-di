@@ -1,6 +1,6 @@
 package dsa.training.sfgdi.controllers;
 
-import dsa.training.sfgdi.services.PetService;
+import dsa.training.pets.PetService;
 import org.springframework.stereotype.Controller;
 
 /**
